@@ -16,6 +16,9 @@
 ;;; Load autocomplete configuration
 (load "~/.emacs.d/config/autocomplete-config.el")
 
+;;; Load org-mode configuration
+(load "~/.emacs.d/config/org-mode-config.el")
+
 ;;; Remove tool-bar
 (tool-bar-mode -1)
 ;;; Remove menu-bar
