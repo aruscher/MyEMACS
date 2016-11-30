@@ -19,13 +19,17 @@
 ;;; Load org-mode configuration
 (load "~/.emacs.d/config/org-mode-config.el")
 
+;;; Load Neo-Tree configuration
+(load "~/.emacs.d/config/neo-tree-config.el")
+
 ;;; Remove tool-bar
 (tool-bar-mode -1)
 ;;; Remove menu-bar
 (menu-bar-mode -1)
 ;;; Remove welcome  message
 (setq inhibit-startup-message t)
-
+;;; Autoline wrap
+(setq-default auto-fill-function 'do-auto-fill)
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
