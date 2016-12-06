@@ -10,7 +10,8 @@
 		       org-bullets
 		       neotree
 		       async
-		       helm))
+		       helm
+		       auto-complete))
 
 ;;; calculate installed packages
 (defun get-not-installed-packages (package-list)

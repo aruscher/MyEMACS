@@ -22,6 +22,9 @@
 ;;; Load Neo-Tree configuration
 (load "~/.emacs.d/config/neo-tree-config.el")
 
+;;; Load Helm configuration
+(load "~/.emacs.d/config/helm-config.el")
+
 ;;; Remove tool-bar
 (tool-bar-mode -1)
 ;;; Remove menu-bar
