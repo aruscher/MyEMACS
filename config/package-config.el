@@ -5,7 +5,12 @@
 (add-to-list 'package-archives '("melpa" . "http://melpa.org/packages/"))
 
 ;;; my package list
-(defvar package-list '(solarized-theme org-bullets neotree))
+(defvar package-list '(
+		       solarized-theme
+		       org-bullets
+		       neotree
+		       async
+		       helm))
 
 ;;; calculate installed packages
 (defun get-not-installed-packages (package-list)

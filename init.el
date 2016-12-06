@@ -28,8 +28,6 @@
 (menu-bar-mode -1)
 ;;; Remove welcome  message
 (setq inhibit-startup-message t)
-;;; Autoline wrap
-(setq-default auto-fill-function 'do-auto-fill)
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
