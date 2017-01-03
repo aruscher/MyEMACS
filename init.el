@@ -27,8 +27,10 @@
 
 ;;; Remove tool-bar
 (tool-bar-mode -1)
+
 ;;; Remove menu-bar
 (menu-bar-mode -1)
+
 ;;; Remove welcome  message
 (setq inhibit-startup-message t)
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
