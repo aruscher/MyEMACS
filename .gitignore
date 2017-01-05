@@ -2,7 +2,7 @@ auto-save-list
 elpa
 
 session.*
-ac-acomphist.dat
+ac-comphist.dat
 # Created by https://www.gitignore.io/api/emacs
 ac-acomphist.dat
 ### Emacs ###
